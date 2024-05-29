@@ -11,18 +11,30 @@ btn{
     border-style:solid;
     display: flex;
     flex-wrap:wrap;
-    width:480px;
+    width:500px;
     height:480px;
 }
-#mainDisplay{
-    margin-top: 10px;
+#lainDisplay{
+    width:400px;
+  margin-left:40px;
     border-style:solid;
-    padding-right:400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDisplay{
+    margin-left:50px;
+    margin-top:50px;
+    font-size: x-large;
 }
 .row{
     margin-top:50px;
-    margin-left:50px;
+    padding-left:50px;
+   
 }
 #clr{
     margin-left:20px
+}
+#ent{
+    /* padding-left: 0px */
 }
